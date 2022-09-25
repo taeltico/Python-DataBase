@@ -9,4 +9,6 @@ float()
 str()
 bool()
 
-
+dir()
+dir(100)
+dir()
