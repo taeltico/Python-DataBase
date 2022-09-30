@@ -1,8 +1,5 @@
-from operator import truediv
-
-
 conta_normal = True
-conta_universitaria = True
+conta_universitaria = False
 
 saldo = 2000
 saque = float(input("insira o valor "))
