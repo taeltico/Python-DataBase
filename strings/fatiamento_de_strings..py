@@ -1,0 +1,10 @@
+nome = input("digite seu nome ")
+
+print(f"Meu nome é:{nome}")
+print(nome[0])
+print(nome[10])
+print(nome[11:26])
+print(nome[1:5])
+print(nome[0:26:2])
+print(nome[:])
+print(nome[::-1])

@@ -31,4 +31,10 @@ print("Olá, Me chamo {}. eu tenho {}  anos de idade, trabalho como {} e estou a
 
 print("Olá, Me chamo {3}. eu tenho {2}  anos de idade, trabalho como {1} e estou aprendendo {0}." .format( idiomas, profissão, idade, nome))
 
-print("Olá, Me chamo {nome}. eu tenho {idade} anos de idade, trabalho como {profissão} e estou aprendendo {idioma}." .format(nome=nome, idade=idade, profissão=profissão, idiomas=idiomas))
+print("Olá, Me chamo {nome}. eu tenho {idade} anos de idade, trabalho como {profissão} e estou aprendendo {idiomas}." .format(nome=nome, idade=idade, profissão=profissão, idiomas=idiomas))
+
+print(f"Olá, Me chamo {nome}. eu tenho {idade} anos de idade, trabalho como {profissão} e estou aprendendo {idiomas}.")
+
+PI = 3.141516
+
+print(f"valor de PI:{PI:.2f}")
