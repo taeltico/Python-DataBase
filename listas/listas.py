@@ -43,7 +43,6 @@ lista.append(1)
 lista.append("python")
 lista.append([1, 2, 7, 9, 35])
 
-
 print(bairros)
 
 lista.copy()
@@ -52,12 +51,15 @@ print(bairros)
 
 print(lista)
 
+
 matriz =[
-    [1, "a", 2]
-    ["b", 3, 4]
-    [6, 5, "c"]
+    [ 1, "a", 2]
+    [ "b", 3, 4]
+    [ 6, 5, "c"]
 ]
 print(matriz[0])
 print(matriz[1])
 print(matriz[1][1])
+print(matriz[-1][-1])
+print(matriz[-1][-1])
 print(matriz[-1][-1])
