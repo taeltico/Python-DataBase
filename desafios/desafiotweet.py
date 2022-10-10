@@ -1,15 +1,12 @@
 from itertools import count
 
 T = input("digite seu texto...")
+caracteres = 140 
 
-for caracteres in T:
-    if caracteres % 2==0:
-        count.append(caracteres)
-
-if T <= caracteres:
-    print("TWEET")
-else:
+if T >= 140:
     print("MUTE")
+else:
+    print("TWEET")
 
 
         
