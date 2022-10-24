@@ -20,7 +20,14 @@ print(exibir_retorno(26,15, multi))
 print(tentativa(multi,exibir_retorno,tentativa))
 
 
+def f(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
+    print(pos1, pos2, pos_or_kwd, kwd1, kwd2)
 
 
 
+print(1, 2, 3, kwd1 = 23, kwd2 = 89)
 
+def criar_carro(modelo, ano, placa,/, marca, motor, combustivel):
+    print(modelo, ano, placa, marca, motor, combustivel);
+
+print(criar_carro("palio", "1999", "abc-1234", "fiat", "1.0", "gasolina"));
