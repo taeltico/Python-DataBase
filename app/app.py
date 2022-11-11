@@ -11,6 +11,6 @@ print("Olá meu nome é", (nome), "meu numero de telefone é ", (telefone), "meu
 
 Saldo = 50223
 saque = input(" digite o valor ")
-valorDisponivel = (Saldo-saque)
+valorDisponivel = (Saldo - saque)
 
 print(nome , "seu saldo disponivel é",valorDisponivel)
